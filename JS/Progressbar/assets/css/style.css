@@ -1,0 +1,20 @@
+.pg{
+    background-color: black;
+    color:white;
+    padding:20px;
+}
+.progress {
+  background-color: lightgray;
+  border-radius:6px;
+}
+
+.progress-bar {
+  height: 20px;
+  background-color: blue;
+}
+  #increment-btn{
+    background-color:green;
+  }
+  #decrement-btn{
+    background-color:brown;
+  }

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <script src="assets/js/validation.js"></script>
+
+</head>
+
+<body>
+    <!-- start of the form section -->
+    <div class="container formlabel">
+        <h1 class="text-center">Create account</h1>
+        <form action="welcome.html" id="formsubmit" name="myform" onsubmit=" return validateform()" metho="post">
+            <div class="row">
+                <!-- firstname -->
+                <div class="col-sm-6">
+                    <label for="Name">FirstName<span class="astric">*</span></label>
+                    <input type="text" name="name" id="Name" placeholder="Enter your first name"
+                        class="form-control mt-3" oninput="validateform()">
+                    <p id="demo" class="text-danger"></p>
+                </div>
+                <!-- lastname -->
+                <div class="col-sm-6">
+                    <label for="Name">LastName<span class="astric">*</span></label>
+                    <input type="text" name="name2" id="Name" placeholder="Enter your Last name"
+                        class="form-control mt-3" oninput="validateform()">
+                    <p id="lname" class="text-danger"></p>
+                </div>
+            </div>
+            <!-- email -->
+            <div class="row mt-3">
+                <div class="col-sm-12">
+                    <label for="Email">Email<span class="astric">*</span></label>
+                    <input type="text" name="email" id="Email" placeholder="Enter your email" class="form-control mt-3"
+                        oninput="validateform()">
+                    <p id="last" class="text-danger"></p>
+                </div>
+            </div>
+            <!-- password -->
+            <div class="row mt-3">
+                <div class="col-sm-6">
+                    <label for="psw">password<span class="astric">*</span></label>
+                    <input type="password" id="psw" name="password" class="form-control mt-3"
+                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                        title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                        oninput="validateform()">
+                    <p id="pass" class="text-danger"></p>
+                </div>
+                <!-- retype password -->
+                <div class="col-sm-6">
+                    <label for="pwd2">Conform Password<span class="astric">*</span></label>
+                    <input type="password" id="pwd2" name="password2" placeholder="Enter your conformation password"
+                        class="form-control mt-3" oninput="validateform()">
+                    <p id="pass2" class="text-danger"></p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <!-- gender -->
+                <div class="col-sm-6 ">
+                    <label for="Gender">Gender:</label>
+                    <div class="radio">
+                        <label><input type="radio" class="gender" name="optradio"
+                                oninput="validateform()"><span>Male</span></label>
+                        <label><input type="radio" class="gender" name="optradio"
+                                oninput="validateform()"><span>feMale</span></label>
+                        <p id="error2" class="text-danger"></p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <!-- checkboxes -->
+                    <label for="Hobbies">Hobbies:</label>
+                    <div>
+                        <label class="checkbox-inline">
+                            <input type="checkbox" class="mycheckbox" value="check" name="accept"
+                                oninput="validateform()"><span>Music</span>
+                        </label>
+                        <label class="checkbox-inline">
+                            <input type="checkbox" class="mycheckbox" value="check" name="accept"
+                                oninput="validateform()"><span>Sports</span>
+                        </label>
+                        <label class="checkbox-inline">
+                            <input type="checkbox" class="mycheckbox" value="check" name="accept"
+                                oninput="validateform()"><span>Travel</span>
+                        </label>
+                        <label class="checkbox-inline">
+                            <input type="checkbox" class="mycheckbox" value="check" name="accept"
+                                oninput="validateform()"><span>Movies</span>
+                        </label>
+                        <p id="error" class="text-danger"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 mt-3">
+                    <!-- source of income -->
+                    <label>Source of income</label>
+                    <div>
+                        <select class="form-select">
+                            <option>Employed</option>
+                            <option>labour</option>
+                            <option>student</option>
+                            <option>army officer</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-6 mt-3">
+                    <!-- income range -->
+                    <label class="mt-3">Income</label>
+                    <div>
+                        <input type="range" name="" id="range" style="width: 80%;" class="">
+                        <p for="" class="btn border  bg-success text-light">20k</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- upload a file -->
+                <div class="col-sm-6">
+                    <label>Upload profile picture</label>
+                    <div>
+                        <input type="file" id="fileInput" name="filename" oninput="validateform()">
+                        <p id="ftype" class="text-danger"></p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <!-- age -->
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age" class="form-control" oninput="validateform()">
+                    <p id="demo2" class="text-danger"></p>
+                </div>
+            </div>
+            <div class="row">
+                <!-- bio -->
+                <div class="col-sm-12">
+                    <label>Bio</label>
+                    <textarea class="form-control shadow-none" name="Message" rows="5"
+                        oninput="validateform()"></textarea>
+                    <p id="bio1" class="text-danger"></p>
+                </div>
+                <div>
+                    <!-- submit -->
+                    <input type="submit" class="btn btn-primary mt-5"></button>
+                </div>
+        </form>
+    </div>
+    <!-- End of the form section -->
+</body>
+
+</html>

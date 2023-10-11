@@ -1,0 +1,34 @@
+body{
+    font-weight: bold;;
+}
+.cake{
+    background-color: blueviolet;
+}
+span{
+    background-color:rgb(209, 155, 54);
+    padding:20px;
+}
+.square{
+    height:200px;
+    width:350px;
+    background-color:white;
+    margin-top:40px;
+}
+img{
+    height:100px;
+    width:100px;
+}
+.square label{
+    color:rgb(195, 43, 226);
+}
+.totalamount{
+    height:100px;
+    width:400px;
+    background-color: black;
+    color:white;
+    font-size:20px;
+}
+#total{
+    background-color:none;
+    color:rgb(209, 155, 54);
+}

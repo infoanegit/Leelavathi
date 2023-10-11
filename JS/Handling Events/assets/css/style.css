@@ -1,0 +1,13 @@
+body{
+    background-color:black;
+}
+h1{
+    color:white;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.button{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}

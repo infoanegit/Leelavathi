@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../jquery task1"
+		},
+		{
+			"path": "../js tasks"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "jquery task1"
+	}
+}

@@ -1,0 +1,8 @@
+.btn,.btn:hover{
+    background-color: aqua;
+    display:block;
+}
+#age,#day{
+    color:rgb(27, 222, 157);
+    font-weight:bold;
+}
