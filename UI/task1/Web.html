@@ -1,0 +1,574 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <title> Webpage</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+
+            margin: 0;
+            padding: 0;
+
+
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: whitesmoke;
+            font-size: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .last.id1 {
+            position: absolute;
+            right: 900px;
+            top: 200px;
+
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        .container .btn {
+            position: absolute;
+            top: 130%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            background-color: turquoise;
+            color: whitesmoke;
+            font-size: 16px;
+            padding: 12px 24px;
+            border: turquoise;
+            border-radius: 5px;
+        }
+
+        .button {
+            position: absolute;
+            top: 70px;
+            left: 18%;
+            color: black;
+            font-size: 16px;
+            padding: 10px 22px;
+            border: black;
+
+        }
+
+
+
+        #box {
+            background-color: black;
+            height: 30%;
+            margin-top: 300px;
+            width: 100%;
+        }
+
+
+
+
+        .one {
+            background-color: white;
+            float: left;
+            margin-left: 100px;
+            text-align: left;
+            font-size: 20px;
+            color: black;
+            padding: 10px;
+
+            align-items: center;
+            justify-content: center;
+            height: 300px;
+            width: 15%;
+        }
+
+        .two {
+            background-color: white;
+            float: left;
+            text-align: left;
+            font-size: 20px;
+            color: black;
+            padding: 10px;
+
+            align-items: center;
+            justify-content: center;
+            height: 300px;
+            width: 15%;
+        }
+
+        .three {
+            background-color: white;
+            float: left;
+            text-align: left;
+            font-size: 20px;
+            color: black;
+            padding: 10px;
+
+            align-items: center;
+            justify-content: center;
+            height: 300px;
+            width: 15%;
+        }
+
+        .four {
+            background-color: white;
+            float: left;
+            text-align: left;
+            font-size: 20px;
+            color: black;
+            padding: 10px;
+
+            align-items: center;
+            justify-content: center;
+            height: 300px;
+            width: 15%;
+        }
+
+        #menu {
+            background-color: black;
+            height: 10%;
+            width: 100%;
+        }
+
+        .container3 {
+            position: relative;
+            text-align: center;
+            color: black;
+        }
+
+        .first-txt {
+            position: relative;
+        }
+
+        .second-txt {
+            position: absolute;
+            top: 200px;
+            left: 400px;
+            opacity: 0.5;
+            font-size: smaller;
+        }
+
+        .third-txt {
+            position: absolute;
+            top: 230px;
+            left: 500px;
+            font-size: smaller;
+
+        }
+
+        #arrow {
+            position: absolute;
+            top: 100px;
+            left: 600px;
+        }
+
+        #facebook {
+            position: absolute;
+            top: 150px;
+            left: 450px;
+        }
+
+        #twitter {
+            position: absolute;
+            top: 150px;
+            left: 550px;
+        }
+
+        #linkedin {
+            position: absolute;
+            top: 150px;
+            left: 650px;
+        }
+
+        #google {
+            position: absolute;
+            top: 150px;
+            left: 750px;
+        }
+
+        #behance {
+            position: absolute;
+            top: 150px;
+            left: 850px;
+        }
+
+        .transparentclass {
+            opacity: .5;
+
+            width: 1239px;
+            display: block;
+            padding: 55px;
+            position: absolute;
+            top: 0;
+
+            flex: left;
+            background: black;
+            clear: both;
+
+
+        }
+
+
+
+        .number {
+            position: absolute;
+            bottom: 550px;
+            left: 10%;
+            color: white;
+        }
+
+        .mletters {
+            position: absolute;
+            bottom: 550px;
+            left: 23%;
+            color: white;
+        }
+
+        #face {
+            position: absolute;
+            top: 5%;
+            left: 80%;
+            color: white;
+
+        }
+
+        #twi {
+            position: absolute;
+            top: 5%;
+            left: 83%;
+            color: white;
+        }
+
+        #link {
+            position: absolute;
+            top: 5%;
+            left: 87%;
+            color: white;
+        }
+
+        #gle {
+            position: absolute;
+            top: 5%;
+            left: 90%;
+            color: white;
+        }
+
+        #be {
+            position: absolute;
+            top: 5%;
+            left: 93%;
+            color: white;
+        }
+
+        .bold {
+            position: absolute;
+            top: 10%;
+            left: 65%;
+            color: white;
+        }
+
+        .about {
+            position: absolute;
+            top: 10%;
+            left: 70%;
+            color: white;
+        }
+
+        .contact {
+            position: absolute;
+            top: 10%;
+            left: 75%;
+            color: white;
+        }
+
+        .services {
+            position: absolute;
+            top: 10%;
+            left: 85%;
+            color: white;
+        }
+
+        .carrer {
+            position: absolute;
+            top: 10%;
+            left: 95%;
+            color: white;
+        }
+
+        #grad1 {
+            height: 200px;
+            background-color: black;
+
+
+        }
+
+        .pic {
+            height: 500px;
+            width: auto;
+            background-image: url("picture.jpg"), linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5));
+            background-blend-mode: overlay;
+            background-size: cover;
+            position: relative;
+        }
+    </style>
+
+
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<body>
+    <div class="pic">
+
+    </div>
+
+    <div class="container" style="clear:both">
+        <span class="transparentclass">
+
+        </span>
+        <h3 class="number"><i style='font-size:24px' class='fas' id="phone">&#xf095;</i>+84&nbsp;905&nbsp;01005</h1>
+            <h4 class="mletters"><i style='font-size:24px' class='fas'>&#xf199;</i>info@gmail.com</h4>
+            <i style='font-size:24px;color:white' class='fas'>&#xf095;</i>
+            <i class="fa-brands fa-facebook" id="face"></i>
+            <i class="fa-brands fa-twitter" id="twi"></i>
+            <i class="fa-brands fa-linkedin-in" id="link"></i>
+            <i class="fa-brands fa-google" id="gle"></i>
+            <i class="fa-brands fa-behance" id="be"></i>
+            <b class="bold"><u>Home</u></b>
+            <b class="about">about</b>
+            <b class="contact">contact us</b>
+            <b class="services">services</b>
+            <b class="carrer">career</b>
+            <button class="button">ISUZU</button>
+            <div class="centered"><b>WE ARE AMAZING</b><br />
+                <p style="font-size: 35%;font-family: 'Courier New', Courier, monospace;margin-left: 80px">GET START
+                    YOUR
+                    NEXT AWESOME
+                    PROJECT</p>
+                <button class="btn">See all features</button>
+
+            </div>
+
+    </div>
+
+
+    <br />
+    <section style="align-self: center;">
+
+        <div id="section" style="float:left;margin-left:15%;clear: both;">
+            <p>
+            <h2><i class="fa-solid fa-bell-slash"></i>Roadmap Strategy</h2>
+            Lorem ipsum dolor sit amet,<br />
+            consectetuer adipsicing elit,sed<br />
+            diam nonummy nibh euismod<br />
+            tincidunt.</p>
+
+            <p>
+            <h2><i style='font-size:24px' class='fab'>&#xf375;</i>services</h2>
+            Lorem ipsum dolor sit amet,<br />
+            consectetuer adipiscing elit,sed<br />
+            diam nonummy nibh euismod<br>
+            tincidunt.</p>
+        </div>
+        <div id="section" style="margin-left:10%;float:left">
+            <p>
+            <h2><i class="fa-solid fa-globe"></i>web development</h2>
+            Lorem ipsum dolor sit amet,<br />
+            consectetuer adipsicing elit,sed<br />
+            diam nonummy nibh euismod<br />
+            tincidunt.</p>
+            <p>
+
+
+            <h2><i style='font-size:24px' class='fab'>&#xf368;</i>Accessibility</h2>
+            Lorem ipsum dolor sit amet,<br />
+            consectetuer adipsicing elit,sed<br />
+            diam nonummy nibh euismod<br />
+            tincidunt.
+            </p>
+        </div>
+        <div id="section" style="float:left;margin-left:10%">
+            <p>
+            <h2><i class="fa-solid fa-chart-line"></i>Reliable results</h2>
+            Lorem ipsum dolor sit amet,<br />
+            consectetuer adipsicing elit,sed<br />
+            diam nonummy nibh euismod<br />
+            tincidunt.</p>
+            <p>
+            <h2><i class="fa-solid fa-truck"></i>Delivery</h2>
+            Lorem ipsum dolor sit amet,<br />
+            consectetuer adipiscing elit,sed<br />
+            diam nonummy nibh euismod<br>
+            tincidunt.</p>
+        </div>
+    </section>
+    <section>
+        <div id="section" style="background-color:rgb(243, 237, 237);clear:both">
+            <h1><u> Gallery</u></h1>
+            <p>
+            <div class="row" style="margin-left:15px;margin-right: 15px;">
+                <div class="column">
+                    <img src="snow.jpg" alt="Snow"
+                        style="width:100%;height:100%;border-color: black;border-style: ridge;border-radius: 10px;">
+                </div>
+                <div class="column">
+                    <img src="forest.jpg" alt="Forest"
+                        style="width:100%;height:100%;border-color: black;border-style: ridge;border-radius: 10px;">
+                </div>
+                <div class="column">
+                    <img src="mountains.jpg" alt="Mountains"
+                        style="width:100%;height:100%;border-color: black;border-style: ridge;border-radius: 10px;">
+                </div>
+            </div>
+            </p>
+            <div class="row" style="margin-left:15px;margin-right: 15px;">
+                <div class="column">
+                    <img src="snow.jpg" alt="Snow"
+                        style="width:100%;height:100%;border-color: black;border-style: ridge;border-radius: 10px;">
+                </div>
+                <div class="column">
+                    <img src="forest.jpg" alt="Forest"
+                        style="width:100%;height:100%;border-color: black;border-style: ridge;border-radius: 10px;">
+                </div>
+                <div class="column">
+                    <img src="mountains.jpg" alt="Mountains"
+                        style="width:100%;height:100%;border-color: black;border-style: ridge;border-radius: 10px;">
+                </div>
+            </div>
+        </div>
+        </div>
+        </p>
+
+
+        </div>
+        <section>
+            <div id="gradient">
+                <img src="shadow image.jpg" alt="shadow" style="height:40%;width:100%;position:relative;opacity:0.5">
+                <h3 style="position:absolute;top:1650px;left:600px">Let's Blog</h3>
+            </div>
+
+            <div id="section3" class="section3" style="position:absolute;top:1700px;left:150px;">
+                <div class="one">
+
+                    <p>
+                    <h6>aug2,2016</h6>
+                    <h5>hwesadfhi waerihfi</h5>
+                    <p>
+                        Loreum ipsum dolor sit amet
+                        consectetuer adipiscing elit,
+                        seddiam nonummy nibh
+                        euismod tincident<br />
+                        <img src="person.jpg" alt="person" style="position:absolute;height:50px;width:50px">
+                        <b style="position:absolute;top:320px;left:160px">Wile cart </b>
+                    </p>
+                    </p>
+
+                </div>
+                <div class="two">
+                    <h6>aug2,2016</h6>
+                    <h5>hwesadfhi waerihfi</h5>
+                    <p>
+                        Loreum ipsum dolor sit amet
+                        consectetuer adipiscing elit,
+                        seddiam nonummy nibh
+                        euismod tincident<br />
+                        <img src="person.jpg" alt="person" style="position:absolute;height:50px;width:50px">
+                        <b style="position:absolute;top:320px;left:360px">Wile cart </b>
+                    </p>
+                </div>
+                <div class="three">
+                    <h6>aug2,2016</h6>
+                    <h5>hwesadfhi waerihfi</h5>
+                    <p>
+                        Loreum ipsum dolor sit amet
+                        consectetuer adipiscing elit,
+                        seddiam nonummy nibh
+                        euismod tincident<br />
+                        <img src="person.jpg" alt="person" style="position:absolute;height:50px;width:50px">
+                        <b style="position:absolute;top:320px;left:560px">Wile cart </b>
+                    </p>
+                </div>
+                <div class="four">
+                    <h6>aug2,2016</h6>
+                    <h5>hwesadfhi waerihfi</h5>
+                    <p>
+                        Loreum ipsum dolor sit amet
+                        consectetuer adipiscing elit,
+                        seddiam nonummy nibh
+                        euismod tincident<br />
+                        <img src="person.jpg" alt="person" style="position:absolute;height:50px;width:50px">
+                        <b style="position:absolute;top:320px;left:760px">Wile cart </b>
+
+                    </p>
+                </div>
+            </div>
+            <br>
+        </section>
+        <section id="box" style="clear:both">
+            <div id="section" style="float:left;margin-left: 21%;">
+                <p style="color:green;font-size:0.9cm;text-align: center;">1340<br />
+                <h3 style="color:white;position:absolute;top:2250px;left:280px">HappyClients</h3>
+                </p>
+            </div>
+            <div id="section" style="float:left;margin-left: 9%;">
+                <p style="color:green;font-size:0.9cm;">2254<br />
+                <h3 style="color:white;position:absolute;top:2250px;left:490px">Download</h3>
+                </p>
+            </div>
+            <div id="section" style="float:left;margin-left: 9%;">
+                <p style="color:green;font-size: 0.9cm;">2124<br />
+                <h3 style="color:white;position:absolute;top:2250px;left:690px"> Works</h3>
+                </p>
+            </div>
+            <div id="section" style="float:left;margin-left: 9%;">
+                <p style="color:green;font-size:0.9cm;">1130<br />
+                <h3 style="color:white;position:absolute;top:2250px;left:890px">Offices</h3>
+                </p>
+            </div>
+
+        </section>
+
+
+        <div id="section3" class="first-txt" stye="clear:both">
+            <img src="profisional.jpg" alt="profisional" height="50%" width="100%" style="opacity: 0.5;" />
+            <i class="fa-solid fa-angles-up" id="arrow"></i>
+            <i class="fa-brands fa-facebook" id="facebook"></i>
+            <i class="fa-brands fa-twitter" id="twitter"></i>
+            <i class="fa-brands fa-linkedin-in" id="linkedin"></i>
+            <i class="fa-brands fa-google" id="google"></i>
+            <i class="fa-brands fa-behance" id="behance"></i>
+            <h3 class="second-txt">
+
+                cIsuzu2016 &nbsp;
+                51uxbridgeRoad,&nbsp;
+                Sanfransisco,USA, &nbsp;Tel:1-888-345-6789<br />
+
+            </h3>
+            <h3 class="third-txt">
+                copyright c 2016 thumesflat,INC.
+            </h3>
+
+
+        </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,1603 @@
+@media (max-width:440px){
+  
+  #ratiologo {
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+  .corner{
+    padding-right: 0px;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .second{
+    height:auto;
+  }
+
+  .sectioncontent {
+      flex-direction: column;
+      padding: 20px;
+  }
+  nav {
+    align-items: start;
+    flex-direction: column;
+}
+nav ul li {
+  padding: 10px;
+  display: block;
+}
+ul li a {
+  font-size: 20px;
+}
+
+.content {
+  width: 100%;
+  padding: 0px;
+}
+#About {
+  
+  padding: 0px;
+  
+}
+.para {
+ 
+  padding: 0px;
+  margin-top:20px;
+  
+}
+.btn {
+  padding: 10px;
+  width: 150px;
+  margin-top: 20px;
+}
+
+#laptop {
+  width: 100%;
+  height: auto;
+}
+.worldclass {
+  padding: 20px;
+}
+#section2{
+  height:auto;
+}
+
+.align-ment {
+  flex-direction: column;
+  margin-left:0px;
+}
+.header {
+  background-position: 85%;
+  height: auto;
+}
+.container {
+  padding: 10px;
+  width: 96%;
+}
+#logo-overlay {
+  opacity: 1.0;
+}
+#passion {
+  font-size: 70px;
+}
+.technology {
+  font-size: 30px;
+}
+#ecoverse {
+  background-color: teal;
+  height: auto;
+  width: 100%;
+  margin-left: 0px;
+  border-radius: 0px;
+  flex-direction: column;
+}
+.missile-image{
+  padding:10px;
+}
+#missile {
+  height: auto;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 25px;
+  padding: 0px;
+}
+#video {
+  margin-left: 171px;
+}
+#section3{
+  height:auto;
+}
+#ecoverse-text {
+  width: 90%;
+  margin-left: 0px;
+  padding: 20px;
+}
+#para2 {
+  margin-top: 20px;
+  padding:0px;
+}
+#para3 {
+  margin-top: 20px;
+  padding-bottom: 0px;
+}
+#btn2 {
+  margin-top:20px;
+}
+.section4 {
+  height: auto;
+}
+#subscription {
+  flex-direction: column;
+  padding: 20px;
+}
+.first-box {
+  height: auto;
+  width: 100%;
+  border-radius: 40px;
+  margin-left: 0px;
+  margin-top: 25px;
+  padding: 20px;
+}
+.second-box {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+}
+#payments {
+  height: auto;
+  width: 100%;
+  /* overflow: hidden; */
+  margin-top: 10px;
+  flex-direction: column;
+  align-items: end;
+  border-radius: 40px;
+  padding: 0px;
+}
+.payment-child {
+  width: 100%;
+  padding: 0px 20px;
+  margin-top: 20px;
+}
+#pay {
+  padding: 0px;
+  margin-bottom: 20px;
+}
+#paymentscapture {
+  position: static;
+  margin-bottom: 20px;
+}
+
+#sub {
+  padding: 0px;
+}
+.subscription-text {
+  margin-left: 0px;
+  margin-right:0px;
+  margin-top:20px;
+}
+.capture {
+  padding: 10px;
+}
+#captureid {
+  height: auto;
+  width: 100%;
+}
+#Analytics {
+  height: auto;
+  width: 100%;
+  margin-left: 13px;
+  border-radius: 40px;
+  margin-bottom: 20px;
+  padding: 20px;
+  margin-left: 0px;
+}
+.Analytics-child {
+  width: 100%;
+  padding:0px;
+}
+#Analyticscapture {
+  height: auto;
+  width: 100%;
+  position:static;
+  border-radius: 40px;
+}
+#Analy {
+  padding:0px;
+  margin-bottom: 20px;
+}
+#payments-txt {
+  margin-bottom: 20px;
+}
+.section5 {
+  height: auto;
+  width: 100%;
+}
+#exchange {
+  width: 100%;
+  padding: 20px;
+  border-radius:0px;
+}
+#exchange-text {
+  width: 100%;
+  padding: 0px;
+  margin-left: 0px;
+}
+.signup {
+  padding: 10px;
+  width: auto;
+  margin-top: 20px;
+}
+#shipyard {
+  height: auto;
+  width: 100%;
+  position: static;
+}
+#video-pause {
+  right: 172px;
+  bottom: 124px;
+  top: auto;
+}
+#para4 {
+  padding: 0px;
+  margin-top: 20px;
+}
+#para6 {
+  padding-bottom: 0px;
+  margin-top: 20px;
+  font-size:18px;
+}
+.section6 {
+  height: auto;
+  width: 100%;
+  padding: 20px;
+}
+.Testimonals {
+  padding: 0px;
+  margin-left:0px;
+}
+.testimonal-text {
+  flex-direction: column;
+}
+.Loreum-text {
+  padding: 0px;
+  width: 100%;
+  margin-top:20px;
+}
+.big-quote {
+  margin-top: 10px;
+  padding-top:0px;
+}
+#quote {
+  padding: 0px 0px 0px 288px;
+}
+.bracket {
+  bottom: 40px;
+  top:auto;
+}
+.girl-image {
+  padding: 0px;
+  margin-bottom: 120px;
+}
+#girl-image {
+  height: auto;
+  width: 100%;
+}
+.footer {
+  height: auto;
+  width: 100%;
+  padding: 20px;
+}
+.row2 {
+  flex-direction: column;
+  padding: 0px;
+}
+.subscribe {
+  margin-top: 20px;
+}
+#jim {
+  padding: 7px;
+  margin-top: 20px;
+  margin-left:0px;
+}
+#jim-arrow {
+  padding-left: 152px;
+
+}
+#sales {
+  padding: 10px;
+  width: 50%;
+  margin-top: 10px;
+  margin-left:0px;
+}
+.row {
+  flex-direction: column;
+}
+.first-list {
+  padding-left:0px;
+  margin-bottom:20px;
+}
+.second-list{
+  margin-bottom:20px;
+}
+.third-list{
+  margin-bottom:20px;
+}
+.fourth-list {
+  padding-right:0px;
+}
+.h3-section {
+  flex-direction: column;
+  padding-top:20px;
+}
+#weekly {
+  padding: 10px;
+  margin-left: 0px;
+  width: 60%;
+}
+#challenge {
+  padding: 10px;
+  margin-left: 0px;
+  width: 82%;
+  margin-top: 10px;
+}
+#stay-connected {
+  font-size: 20px;
+  padding-right: 0px;
+  margin-left: 0px;
+  padding-top: 20px;
+}
+#icon {
+  padding-left: 9px;
+}
+.copy-rights {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+ /* End */
+
+}
+/*start of ipad media queries*/
+@media(min-width:768px) and (max-width:991px){
+  .header {
+    height: auto;
+    width: 100%;
+    background-position: 85%;
+  }
+  #ratiologo {
+    padding-left: 20px;
+  }
+
+nav {
+    align-items: start;
+    margin-top: 30px;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 0px;
+}
+nav ul li {
+  display: block;
+  padding: 20px;
+  font-size: 20px;
+}
+.container {
+  padding: 40px;
+  width: 60%;
+}
+.corner {
+  padding-right: 0px;
+  margin-left: 10px;
+}
+  #logo-overlay {
+    left: 5%;
+    opacity: 0.8;
+}
+  .technology {
+    margin-bottom: 20px;
+  }
+  .second {
+    height: auto;
+  }
+  .sectioncontent {
+    padding: 40px;
+    flex-direction: column;
+  }
+  .content {
+    width: 100%;
+    padding: 0px;
+  }
+  #section2 {
+    height: auto;
+    padding: 40px;
+}
+.align-ment {
+  margin-left: 0px;
+  padding: 0px;
+}
+  .worldclass {
+    padding: 5px;
+  }
+  #section3 {
+    height: auto;
+    width: 100%;
+  }
+  #ecoverse {
+    height: auto;
+    width: 100%;
+    margin-left: 0px;
+    flex-direction: column;
+    border-radius: 0px;
+    padding: 20px;
+}
+#missile {
+  height: auto;
+  width: 75%;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+  #video {
+    margin-top: 259px;
+    margin-left: 248px;
+  }
+  #ecoverse-text {
+    width: 100%;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding: 20px;
+}
+.middle {
+  font-size: 60px;
+  margin-top: 40px;
+}
+#para2 {
+  font-size: 30px;
+  padding: 0px;
+  margin-top: 40px;
+}
+#para3 {
+  font-size: 20px;
+  padding-bottom: 0px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.section4 {
+  height: auto;
+  width: 100%;
+}
+#subscription {
+  padding: 40px;
+  flex-direction: column;
+}
+.first-box {
+  height: auto;
+  width: 100%;
+  padding: 40px;
+  position: relative;
+  border-radius: 40px;
+}
+.subscription-text {
+  font-size: 20px;
+}
+.capture {
+  padding: 20px;
+}
+#captureid {
+  height: auto;
+  width: 70%;
+}
+.second-box {
+  width: 100%;
+  height: auto;
+  padding-left: 0px;
+  padding: 0px;
+}
+#payments {
+  height: auto;
+  width: 100%;
+  flex-direction: column;
+  align-items: end;
+  border-radius: 40px;
+  margin-top: 40px;
+  padding: 0px;
+}
+.payment-child {
+  width: 100%;
+  padding: 60px;
+}
+#pay {
+  padding: 0px;
+  padding-left: 0px;
+}
+#payments-txt {
+  margin-top: 40px;
+  padding-left: 0px;
+  font-size: 20px;
+}
+#paymentscapture {
+  position: static;
+  margin-bottom: 40px;
+}
+#Analytics {
+  height: auto;
+  width: 100%;
+  border-radius: 40px;
+  padding: 40px;
+}
+.Analytics-child {
+  width: 100%;
+  padding: 20px;
+  flex-direction: column;
+}
+.Analyticscapture{
+  padding-left:20px;
+}
+#Analyticscapture {
+  padding: 0px;
+  height: auto;
+  width: 50%;
+  position: static;
+  border-radius: 40px;
+}
+#Analy {
+  padding: 0px;
+}
+.section5 {
+  height: auto;
+  width: 100%;
+}
+#exchange {
+  float: left;
+  width: 100%;
+  padding: 20px;
+  border-radius:0px;
+}
+#exchange-text {
+  width: 100%;
+  padding: 20px;
+  margin-left: 0px;
+}
+#exc {
+  padding: 0px;
+  font-size:77px;
+}
+#para4 {
+  padding: 0px;
+  margin-top: 40px;
+}
+#para6 {
+  padding-bottom: 0px;
+  margin: 40px 0px;
+  font-size:20px;
+}
+#shipyard {
+  height: auto;
+  width: 60%;
+  position: static;
+}
+#video-pause {
+  right: 0px;
+  bottom: 196px;
+  left: 233px;
+  top: auto;
+}
+.section6 {
+  height: auto;
+}
+.Testimonals {
+  padding: 0px;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+.testimonal-text {
+  flex-direction: column;
+  padding: 40px;
+}
+.Loreum-text {
+  flex-direction: column;
+  padding: 0px;
+  width: 100%;
+}
+#Loreum{
+  font-size:20px;
+}
+#quote {
+  padding: 0px 0px 0px 670px;
+}
+.bracket {
+  padding-top: 0px;
+  bottom: 20px;
+  top:auto;
+}
+.girl-image {
+  padding: 0px;
+  margin-bottom: 40px;
+}
+#girl-image {
+  height: auto;
+  width: 50%;
+  margin-bottom: 40px;
+}
+.footer{
+  height:auto;
+  padding:40px;
+}
+.row2 {
+  justify-content: space-between;
+  padding: 0px;
+}
+.row {
+  justify-content: space-around;
+  padding: 20px;
+}
+.first-list {
+  padding-left: 0px;
+  width: 50%;
+}
+.second-list {
+  padding-left: 0px;
+  width: 50%;
+}
+.third-list {
+  padding-left: 0px;
+  width: 50%;
+}
+.fourth-list {
+  padding-right: 0px;
+  width: 50%;
+}
+footer ul li {
+  font-size: 20px;
+  padding: 20px;
+}
+.h3-section {
+  padding-top: 0px;
+  flex-direction: column;
+}
+#weekly {
+  text-align: left;
+  /* display: flex; */
+  justify-content: space-evenly;
+  margin-left: 0px;
+  width: 27%;
+}
+#challenge {
+  display: inline-block;
+  /* display: flex; */
+  margin-left: 0px;
+  width: 38%;
+}
+#stay-connected {
+  padding-right: 0px;
+  margin-left: 0px;
+}
+/* End of the ipad media queries*/
+}
+/*start of the ipad pro media queries*/
+@media(min-width:992px) and (max-width:1199px){
+  .header {
+    height: auto;
+    width: 100%;
+    background-position: 85%;
+}
+nav {
+  padding-top: 0px;
+  margin-top: 40px;
+  flex-direction: column;
+  align-items: start;
+  padding: 40px;
+}
+#ratiologo {
+  padding-left: 20px;
+}
+nav ul li {
+  display: block;
+  padding: 20px;
+  font-size: 20px;
+}
+.corner {
+  padding-right: 0px;
+  margin-left: 10px;
+}
+.container {
+  padding: 60px;
+  width: 32%;
+}
+.Now {
+  font-size: 20px;
+}
+.second {
+  height: auto;
+  padding: 40px;
+}
+.sectioncontent {
+  justify-content: space-between;
+  padding: 20px;
+}
+.content {
+  padding: 0px;
+  width:40%;
+}
+#laptop {
+  height: auto;
+  width: 100%;
+  margin-top:0px;
+}
+#section2 {
+  height: auto;
+  padding: 40px;
+}
+.align-ment {
+  margin-left: 0px;
+  padding: 5px;
+}
+.worldclass {
+  padding: 20px;
+}
+#section3 {
+  height: auto;
+  width: 100%;
+}
+#ecoverse {
+  height: auto;
+  width: 90%;
+  margin-left: 103px;
+  padding: 60px;
+}
+#missile {
+  height: auto;
+  width: auto;
+  margin-left: -125px;
+  margin-top: 200px;
+}
+#ecoverse-text {
+  width: 40%;
+  margin-left: 40px;
+  padding-right: 0px;
+}
+.middle {
+  font-size: 60px;
+}
+#para2 {
+  font-size: 30px;
+  padding: 0px;
+  margin: 20px 0px;
+}
+#para3 {
+  font-size: 25px;
+  padding-bottom: 0px;
+  margin-bottom:20px;
+}
+#video {
+  margin-top: 400px;
+  margin-left: 100px;
+}
+.section4 {
+  height: auto;
+  padding: 40px;
+}
+#subscription {
+  padding: 0px;
+  flex-direction: column;
+}
+.first-box {
+  height: auto;
+  width: 100%;
+  border-radius: 40px;
+  padding: 20px;
+}
+#sub {
+  padding: 0px 40px;
+  margin: 40px 0px;
+}
+.subscription-text {
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 50%;
+  margin-top: 0px;
+  padding: 0px 40px;
+  font-size: 20px;
+}
+.capture {
+  padding: 0px;
+}
+#captureid {
+  height: auto;
+  width: auto;
+  margin-top: -225px;
+  margin-left: 500px;
+}
+.second-box {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  padding-left: 0px;
+  margin-top: 40px;
+  width:100%;
+}
+#payments {
+  height: 600px;
+  width: 50%;
+  padding: 0px;
+  align-items: end;
+  flex-direction: column;
+  margin-right: 20px;
+  border-radius: 40px;
+}
+.payment-child {
+  width: 100%;
+  padding: 40px;
+  font-size: 20px;
+}
+#pay {
+  margin: 10px 0px;
+}
+#paymentscapture {
+  position: static;
+}
+#Analytics {
+  background-color: rgb(78, 75, 75);
+  height: 600px;
+  width: 50%;
+  margin-top: 0px;
+  padding: 40px;
+  border-radius: 40px;
+}
+.Analytics-child {
+  width: 100%;
+  padding: 0px;
+}
+#Analy {
+  padding: 0px;
+  margin:20px 0px;
+}
+#payments-txt {
+  margin: 20px 0px;
+  font-size: 20px;
+}
+#Analyticscapture {
+  padding: 0px;
+  height: auto;
+  width: 78%;
+  position: static;
+}
+.section5 {
+  height: auto;
+}
+#exchange {
+  padding: 40px;
+}
+#exchange-text {
+  width: 45%;
+  padding: 0px;
+  margin-left: 0px;
+  padding-left: 40px;
+}
+#exc {
+  padding: 0px;
+  font-size: 70px;
+}
+#para4 {
+  font-size: 35px;
+  padding: 0px;
+  margin: 20px 0px;
+}
+#para6 {
+  font-size: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 20px;
+}
+#shipyard {
+  height: auto;
+  width: auto;
+  top: 264px;
+  left: 459px;
+}
+#video-pause {
+  right: 160px;
+  top: 465px;
+}
+.section6 {
+  height: auto;
+  padding:40px;
+}
+.Testimonals {
+  padding: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+.testimonal-text {
+  justify-content: space-between;
+}
+#Loreum {
+  font-size: 20px;
+}
+.Loreum-text {
+  padding: 0px;
+  width: 60%;
+}
+.footer {
+  height: auto;
+  padding:40px;
+}
+.row2 {
+  padding: 0px;
+}
+.row {
+  justify-content: space-between;
+  padding:20px;
+}
+.first-list {
+  padding-left: 0px;
+}
+.fourth-list {
+  padding-right: 0px;
+}
+.h3-section {
+  justify-content: space-between;
+  padding-top: 20px;
+}
+#weekly {
+  margin-left: 0px;
+}
+#challenge {
+  margin-left: 0px;
+}
+#stay-connected {
+  padding-right: 0px;
+  margin-left: 0px;
+}
+.copy-rights {
+  margin-top: 8%;
+}
+/*end of ipad pro media queries*/
+}
+/*start of the small desktop*/
+@media(min-width:1200px) and (max-width:1300px){
+  .header {
+    height: auto;
+    background-position: 85%;
+}
+.second {
+  height: auto;
+  padding: 40px;
+}
+.sectioncontent {
+  justify-content: space-evenly;
+  padding: 40px;
+}
+#section2 {
+  height: auto;
+  padding: 40px;
+}
+.align-ment {
+  margin-left: 0px;
+  padding: 0px;
+}
+#section3 {
+  height: auto;
+  width: 100%;
+}
+#ecoverse {
+  height: auto;
+  padding: 40px;
+  margin-left: 241px;
+}
+#missile {
+  height: auto;
+  width: 500px;
+  margin-left: -259px;
+  margin-top: 75px;
+}
+#video {
+  margin-top: 261px;
+  margin-left: -45px;
+}
+#ecoverse-text {
+  width: 50%;
+  margin-left: 100px;
+  padding-right: 0px;
+}
+.middle {
+  font-size: 60px;
+}
+#para2 {
+  font-size: 30px;
+  padding: 0px;
+  margin:40px 0px;
+}
+#para3 {
+  font-size: 20px;
+  padding: 0px;
+  margin-bottom: 40px;
+}
+.section4 {
+  height: auto;
+  width: 100%;
+  padding: 40px;
+}
+.section5 {
+  height: auto;
+}
+#shipyard {
+  height: 400px;
+  width: 500px;
+  position: absolute;
+  top: 57px;
+  left: 730px;
+}
+.section6 {
+  height: auto;
+  width: 100%;
+  padding: 40px;
+}
+.Testimonals {
+  padding: 0px;
+  margin-left: 0px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.testimonal-text {
+  justify-content: space-around;
+}
+.footer {
+  height: auto;
+  width: 100%;
+  padding: 40px;
+}
+.row2 {
+  justify-content: space-evenly;
+  padding: 0px;
+}
+.row {
+  padding: 40px;
+  justify-content: space-between;
+}
+.first-list {
+  padding-left: 24px;
+}
+.fourth-list {
+  padding-right: 36px;
+}
+.h3-section {
+  justify-content: space-around;
+  padding-top: 0px;
+}
+#weekly {
+  margin-left: 0px;
+}
+#challenge {
+  margin-left: 0px;
+}
+#stay-connected {
+  padding-right: 0px;
+  margin-left: 0px;
+}
+/*End*/
+}
+/*start of the desktop queries*/
+@media(min-width:1400px){
+  .second {
+    height: auto;
+    padding: 40px;
+}
+.sectioncontent {
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.content {
+  width: 40%;
+  padding: 0px;
+}
+#section2 {
+  height: auto;
+  padding: 40px;
+}
+.align-ment {
+  margin-left: 0px;
+  padding: 0px;
+}
+#section3 {
+  height: auto;
+  width: 100%;
+}
+#ecoverse {
+  background-color: teal;
+  height: auto;
+  width: 1030x;
+  margin-left: 315px;
+  padding: 40px;
+}
+#missile {
+  height: auto;
+  width: 500px;
+  margin-left: -220px;
+  margin-top: 56px;
+}
+#video {
+  margin-top: 197px;
+  margin-left: -21px;
+}
+#ecoverse-text {
+  width: 50%;
+  margin-left: 100px;
+  padding-right: 0px;
+}
+.middle {
+  font-size: 50px;
+}
+#para2 {
+  font-size: 30px;
+  padding: 0px;
+  margin: 20px 0px;
+}
+#para3 {
+  font-size: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 20px;
+}
+.section4 {
+  height: auto;
+  width: 100%;
+  padding: 40px;
+}
+#subscription {
+  padding: 0px;
+}
+.first-box {
+  height: auto;
+  width: 30%;
+  padding: 20px 10px;
+}
+.second-box {
+  width: 40%;
+  height: auto;
+  padding-left: 20px;
+}
+#Analytics {
+  height: auto;
+  width: 90%;
+}
+#payments {
+  height: auto;
+  width: 90%;
+}
+.section5 {
+  height: auto;
+  width: 100%;
+}
+#exchange {
+  padding: 40px;
+}
+#exchange-text {
+  width: 50%;
+  padding: 30px;
+  margin-left: 70px;
+}
+#exc {
+  padding: 0px;
+}
+#para4 {
+  padding: 0px;
+  margin: 40px 0px;
+}
+#para6 {
+  font-size: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 40px;
+}
+#shipyard {
+  height: auto;
+  top: 140px;
+  right: -111px;
+  left:auto;
+}
+#video-pause {
+  right: 130px;
+  top: 291px;
+}
+.section6 {
+  height: auto;
+  width: 100%;
+  padding: 40px;
+}
+.Testimonals {
+  margin-left: 0px;
+}
+.testimonal-text {
+  justify-content: space-evenly;
+  padding: 40px;
+}
+.bracket {
+  top: 340px;
+}
+.footer {
+  height: auto;
+  width: 100%;
+  padding: 40px;
+}
+.row2 {
+  padding: 40px;
+}
+.row {
+  justify-content: space-around;
+}
+.first-list {
+  padding-left: 0px;
+}
+.fourth-list {
+  padding-right: 0px;
+}
+.h3-section {
+  justify-content: space-evenly;
+}
+.copy-rights {
+  margin-top: 5%;
+  color: white;
+}
+/*End*/
+}
+@media(min-width:450px) and (max-width:750px){
+  .header {
+    height: auto;
+    background-position: 85%;
+}
+nav {
+  padding-top: 30px;
+    flex-direction: column;
+    padding-left: 20px;
+    align-items: start;
+}
+#ratiologo {
+  padding-left: 10px;
+}
+nav ul li {
+  display: block;
+  padding: 10px;
+}
+.corner {
+  padding-right: 0px;
+  margin-left: 10px;
+}
+.container {
+  padding: 20px;
+  width: 75%;
+}
+.second {
+  height: auto;
+    padding: 20px;
+}
+.sectioncontent {
+  padding: 0px;
+  flex-direction: column;
+}
+.content {
+  width: 100%;
+  padding: 0px;
+}
+#section2 {
+  height: auto;
+  padding: 20px;
+}
+.align-ment {
+  margin-left: 0px;
+  padding: 0px;
+  flex-direction: column;
+}
+#section3 {
+  height: auto;
+  width: 100%;
+}
+#ecoverse {
+  height: auto;
+  width: 1030x;
+  margin-left: 0px;
+  border-radius: 0px;
+  flex-direction: column;
+  padding:20px;
+}
+#ecoverse-text {
+  width: 100%;
+  margin-left: 0px;
+  padding: 0px;
+}
+#para2 {
+  padding: 0px;
+  margin: 20px 0px;
+}
+#para3 {
+  margin-bottom: 20px;
+  padding-bottom: 0px;
+}
+#missile {
+  height: auto;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 40px;
+}
+#video {
+  margin-top: 254px;
+  margin-left: 265px;
+}
+.section4 {
+  height: auto;
+    padding: 20px;
+}
+#subscription {
+  flex-direction: column;
+    padding: 20px;
+}
+.first-box {
+  height: auto;
+  width: 100%;
+  border-radius: 40px;
+  margin-left: 0px;
+  margin-top: 0px;
+  padding: 40px;
+}
+.second-box {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+}
+#payments {
+  height: auto;
+  width: 100%;
+  margin-top: 10px;
+  flex-direction: column;
+  align-items: end;
+  border-radius: 40px;
+  padding: 0px;
+}
+.payment-child {
+  width: 100%;
+  padding: 40px;
+  margin-top: 20px;
+}
+#pay {
+  padding: 0px;
+  margin-bottom: 20px;
+}
+#paymentscapture {
+  position: static;
+  margin-bottom: 40px;
+}
+#sub {
+  padding: 0px;
+}
+.subscription-text {
+  margin-left: 0px;
+  margin-right:0px;
+  margin-top:20px;
+}
+.capture {
+  padding: 10px;
+}
+#captureid {
+  height: auto;
+  width: 100%;
+}
+#Analytics {
+  height: auto;
+  width: 100%;
+  margin-left: 13px;
+  border-radius: 40px;
+  margin-bottom: 20px;
+  padding: 20px;
+  margin-left: 0px;
+}
+.Analytics-child {
+  width: 100%;
+  padding: 20px;
+}
+#Analyticscapture {
+  height: auto;
+  width: 70%;
+  position: static;
+  border-radius: 40px;
+}
+#Analy {
+  padding:0px;
+  margin-bottom: 20px;
+}
+#payments-txt {
+  margin-bottom: 20px;
+}
+.section5 {
+  height: auto;
+  width: 100%;
+}
+#exchange {
+  width: 100%;
+  padding: 20px;
+  border-radius:0px;
+}
+#exchange-text {
+  width: 100%;
+  padding: 0px;
+  margin-left: 0px;
+}
+.signup {
+  padding: 10px;
+  width: auto;
+  margin-top: 20px;
+}
+#shipyard {
+  height: auto;
+  width: 100%;
+  position: static;
+}
+#video-pause {
+  right: 343px;
+  bottom: 343px;
+  top: auto;
+}
+#para4 {
+  padding: 0px;
+  margin-top: 20px;
+}
+#para6 {
+  padding-bottom: 0px;
+  margin-top: 20px;
+  font-size:18px;
+}
+.section6 {
+  height: auto;
+  width: 100%;
+  padding: 20px;
+}
+.Testimonals {
+  padding: 0px;
+  margin-left:0px;
+}
+.testimonal-text {
+  flex-direction: column;
+}
+.Loreum-text {
+  padding: 0px;
+  width: 100%;
+  margin-top:20px;
+}
+.big-quote {
+  margin-top: 10px;
+  padding-top:0px;
+}
+#quote {
+  padding: 0px 0px 0px 654px;
+}
+.bracket {
+  bottom: 40px;
+  top:auto;
+}
+.girl-image {
+  padding: 0px;
+  margin-bottom: 120px;
+}
+#girl-image {
+  height: auto;
+  width: 100%;
+}
+.footer {
+  height: auto;
+  width: 100%;
+  padding: 20px;
+}
+.row2 {
+  flex-direction: column;
+  padding: 0px;
+}
+.subscribe {
+  margin-top: 20px;
+}
+#jim {
+  padding: 7px;
+  margin-top: 20px;
+  margin-left: 0px;
+  width: 50%;
+}
+#jim-arrow {
+  padding-left: 152px;
+
+}
+#sales {
+  padding: 10px;
+  width: 23%;
+  margin-top: 10px;
+  margin-left: 0px;
+}
+.row {
+  flex-direction: column;
+}
+.first-list {
+  padding-left:0px;
+  margin-bottom:20px;
+}
+.second-list{
+  margin-bottom:20px;
+}
+.third-list{
+  margin-bottom:20px;
+}
+.fourth-list {
+  padding-right:0px;
+}
+.h3-section {
+  flex-direction: column;
+  padding-top:20px;
+}
+#weekly {
+  padding: 10px;
+  margin-left: 0px;
+  width: 35%;
+}
+#weekly {
+  padding: 10px;
+  margin-left: 0px;
+  width: 35%;
+}
+#challenge {
+  margin-left: 0px;
+  width: 40%;
+}
+#stay-connected {
+  font-size: 20px;
+  padding-right: 0px;
+  margin-left: 0px;
+  padding-top: 20px;
+}
+#icon {
+  padding-left: 9px;
+}
+.copy-rights {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+}
+@media (min-width:1920px){
+  .row2 {
+    padding: 0px;
+}
+.row {
+  justify-content: space-around;
+}
+.h3-section {
+  justify-content: space-around;
+}
+.first-list {
+  padding-left: 25px;
+}
+.fourth-list {
+  padding-right: 40px;
+}
+.container {
+  padding: 40px;
+  width: 30%;
+  margin-top: 20px;
+  margin-left: 282px;
+}
+#Loreum {
+  font-size: 20px;
+}
+.bracket {
+  top: 360px;
+}
+}
+@media(min-width:1600px) and (max-width:1700px){
+  .fourth-list {
+    padding-right: 25px;
+}
+.first-list {
+  padding-left: 0px;
+}
+.container {
+  padding: 50px 80px 80px 235px;
+}
+.row {
+  justify-content: space-around;
+}
+}
+
+
+
+
+
+
+
