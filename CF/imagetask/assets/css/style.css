@@ -1,0 +1,21 @@
+.imagetask{
+    background: linear-gradient(to right, rgb(229, 110, 197) 25%, #00bbff 100%);
+}
+h1{
+    color:white;
+}
+.listpage{
+    background-color: #00bbff;
+}
+.userdetail{
+    background: linear-gradient(to right, rgb(106, 34, 206) 25%, rgb(229, 110, 197));
+}
+#error{
+    color:red;
+}
+#error-desc{
+    color:red;
+}
+#error-message{
+    color:red;
+}
