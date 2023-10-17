@@ -1,0 +1,24 @@
+.loginpage{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)
+}
+span i{
+    border-radius: 100%;
+    background-color: rgb(229, 110, 197);
+    padding:10px;
+}
+.btn,.btn:hover{
+    background-color:black;
+    margin:5px;
+    padding:5px 60px;
+    color:white;
+}
+.username,.password{
+    border-block-start-color:blueviolet;
+    border-block-end-color: rgb(229, 110, 197);
+    border-left-color:blueviolet;
+    border-right-color:rgb(229, 110, 197) ;
+}
+
+
+
+
