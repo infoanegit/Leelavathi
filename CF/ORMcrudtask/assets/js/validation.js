@@ -6,7 +6,7 @@ $(document).ready(function(){
             alert("please enter the name of employee")
         }
         if(empage==""){
-            alert("plaese enter the age");
+            alert("please enter the age")
         }
     });
 });

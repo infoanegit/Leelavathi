@@ -13,7 +13,7 @@
         </head>
 
             <cfif  structKeyExists(url,"id")>
-                <cfset editData= EntityLoadbypk("Employee",url.id)>
+                <cfset editData= EntityLoadbypk("userdetails",url.id)>
                 <cfparam name="form.empname" default="">
                 <cfparam name="form.empage" default="">
                 <cfif isNumeric(form.empage)>
@@ -30,8 +30,7 @@
                 <cfif isNumeric(form.empage)>
                     <!-- Age value is numeric, proceed with data insertion -->
                     <cfset newEmployee = createObject("component", "userdetails")>
-                    <cftransaction>
-                    <cfset newEmployee = EntityNew("Employee")>
+                    <cfset newEmployee = EntityNew("userdetails")>
                     <cfset newEmployee.setEmpname(form.empname)>
                     <cfset newEmployee.setEmpage(form.empage)>
                     <!-- Use ORMSave to insert the new employee -->
@@ -43,10 +42,10 @@
             <div class="container bg-dark w-25 mt-3 pb-5 text-center h-50">
                 <form name="employeeForm" method="post" id="loginform">
                     <label class="text-info mt-3">Enter employee name</label>
-                    <input type="text" class="form-control offset-2 w-75" name="empname" id="empname" pattern="^[A-Za-z\s.'-]+$" title="name should be in characters" <cfif isDefined("url.id")> value="#editData.getEmpname()#"</cfif>>
+                    <input type="text" class="form-control offset-2 w-75" name="empname" id="empname" pattern="^[A-Za-z\s.'-]+$" title="name should be in characters"<cfif isDefined("url.id")> value="#editData.getEmpname()#"</cfif>>
                     <p id="error" class="text-danger"></p>
                     <label class="text-info">Enter employee age</label>
-                    <input type="number" class="form-control offset-2 w-75" name="empage" min="0" max="100" id="empage" <cfif isDefined("url.id")>value="#editData.getEmpage()#"</cfif>>
+                    <input type="number" class="form-control offset-2 w-75" name="empage" min="0" max="100" id="empage"<cfif isDefined("url.id")> value="#editData.getEmpage()#"</cfif>>
                     <p id="ageerror"></p>
                     <input type="submit" class="btn btn-success mt-5" value="Submit" name="submit">
                 </form>

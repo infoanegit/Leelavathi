@@ -13,9 +13,9 @@
 		<body>
 			<div class="container mt-3 text-center adminpage">
 				<a href="loginform.cfm"><input type="submit" value="Add New" class="btn btn-success mb-3"/></a>
-				<cfset ARTISTS = EntityLoad("Employee")>
+				<cfset ARTISTS = EntityLoad("userdetails")>
 				<cfif structKeyExists(url,"id")>
-					<cfset deleteData = EntityLoadbypk("Employee",url.id)>
+					<cfset deleteData = EntityLoadbypk("userdetails",url.id)>
 					<cfset EntityDelete(deleteData)>
 					<cflocation  url="list.cfm" addtoken="false">
 				</cfif>
@@ -42,5 +42,3 @@
 			</div>
 		</body>
 	</html>
-
-
